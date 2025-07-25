@@ -1,4 +1,4 @@
-// src/registry/componentRegistry.ts
+// src/registry/componentRegistry.ts.bak
 
 import { ComponentUsage, ComponentRegistry, ComponentCategory } from '../lib/dev-container/types';
 
