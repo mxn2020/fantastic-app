@@ -333,7 +333,7 @@ export const Landing: React.FC = () => {
                 >
                   <CardContent devId="noID" className="p-0">
                     <Div devId="noID" className="mb-4">{service.icon}</Div>
-                    <H3 className="text-xl font-semibold text-gray-800 mb-2">{service.title}</H3>
+                    <H3 devId="noID" className="text-xl font-semibold text-gray-800 mb-2">{service.title}</H3>
                     <P devId="noID" className="text-gray-600">{service.description}</P>
                   </CardContent>
                 </Card>
@@ -372,7 +372,7 @@ export const Landing: React.FC = () => {
                     </Div>
                     <Div devId="noID" className="p-6">
                       <Badge devId="noID" className="mb-2 bg-blue-100 text-blue-800">{bike.category}</Badge>
-                      <H3 className="text-xl font-semibold text-gray-800 mb-2">{bike.name}</H3>
+                      <H3 devId="noID" className="text-xl font-semibold text-gray-800 mb-2">{bike.name}</H3>
                       <Div devId="noID" className="flex justify-between items-center">
                         <Span devId="noID" className="text-2xl font-bold text-green-600">{bike.price}</Span>
                         <Button devId="noID" className="bg-blue-600 hover:bg-blue-700 text-white">
@@ -407,7 +407,7 @@ export const Landing: React.FC = () => {
                 >
                   <CardContent devId="noID" className="p-0">
                     <Div devId="noID" className="mb-4 flex justify-center">{feature.icon}</Div>
-                    <H3 className="text-lg font-semibold text-gray-800 mb-2">{feature.title}</H3>
+                    <H3 devId="noID" className="text-lg font-semibold text-gray-800 mb-2">{feature.title}</H3>
                     <P devId="noID" className="text-gray-600 text-sm">{feature.description}</P>
                   </CardContent>
                 </Card>
